@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File-Scoped namespace formatter</title>
+    <script src="js/index.js" defer></script>
+    <link href="css/index.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://img.icons8.com/?size=512&id=55251&format=png" rel="icon" type="image/x-icon" />
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 id="header-title">Old format to new format file scoped <b id="bold-title">namespace!</b></h1>
+            <span class="material-symbols-outlined icon">code</span>
+        </div>
+
+        <div id="content">
+            <div id="paste-content" class="toolbox">
+                <h3 class="instruction">Paste your old format code</h3> 
+                <span class="material-symbols-outlined icon">content_paste_go</span>
+            </div>
+            <textarea id="textareaold" class="textarea-code"></textarea>
+
+            <button id="transform-button">Proccess</button>
+
+            <div id="copy-content" class="toolbox">
+                <h3 class="instruction">Copy your new format code</h3> 
+                <span class="material-symbols-outlined icon">content_copy</span>
+            </div>
+            <textarea id="textareanew" class="textarea-code"></textarea>
+
+            <div id="paste-example" class="toolbox">
+                <h3 class="instruction">Click here to see an example code</h3> 
+                <span class="material-symbols-outlined icon">content_paste_go</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
